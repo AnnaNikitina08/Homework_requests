@@ -36,7 +36,7 @@ class YaUploader:
 
 
 if __name__ == '__main__':
-    """Получить путь к загружаемому файлу и токен от пользователя"""
+
     path_to_file = "C:\\Документы для СЭД\Порт Батуми.jpg"
     token = TOKEN
     uploader = YaUploader(token)
