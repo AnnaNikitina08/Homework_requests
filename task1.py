@@ -15,9 +15,11 @@ def get_hero_list(hero_name):
             hero_intelligence[hero_name] = int(intelligence)
             print(hero_intelligence)
 
-get_hero_list("Hulk")
-get_hero_list("Captain America")
-get_hero_list("Thanos")
+if __name__ == '__main__':
+
+    get_hero_list("Hulk")
+    get_hero_list("Captain America")
+    get_hero_list("Thanos")
 
 int_max = max(list(hero_intelligence.values()))
 rev = dict(map(reversed, hero_intelligence.items()))
